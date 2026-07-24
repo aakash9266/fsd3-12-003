@@ -29,3 +29,4 @@ const toWords=(digit)=>{
 console.log(toWords(3));
 console.log(toWords(4));
 console.log(toWords(5));
+// console.log(toWords(10));
