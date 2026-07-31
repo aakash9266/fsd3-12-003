@@ -1,32 +1,25 @@
-//Write a fn to take any digit (0-9) and return its type in word
-// function digitToWord(digit) {
-//     switch (digit) {
-//         case 0: return "Zero";
-//         case 1: return "One";
-//         case 2: return "Two";
-//         case 3: return "Three";
-//         case 4: return "Four";
-//         case 5: return "Five";
-//         case 6: return "Six";
-//         case 7: return "Seven";
-//         case 8: return "Eight";
-//         case 9: return "Nine";
-//         default: return "Invalid Digit";
-//     }
-// }
+const f1 = () => {
+  console.log("F1")
+};
+const f2 = () => {
+  console.log("F2")
+};
+const f3 = () => {
+  console.log("F3")
+};
 
-// console.log(digitToWord(5)); 
-// console.log(digitToWord(9)); 
-// console.log(digitToWord(12)); 
+function main(){
+    console.log("main");
+    setTimeout(f1,0);  //another is await 
+    //  setInterval(f1, 1000);
+    setImmediate(f2);
+    // f1();
+    f2();
+    f3();
+    console.log("end");
 
-//another method
-const toWords=(digit)=>{
-    const words =["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"];
-    return words[digit];
-    
-    
 }
-console.log(toWords(3));
-console.log(toWords(4));
-console.log(toWords(5));
-// console.log(toWords(10));
+
+main();
+
+// js is syncuronous  single threded

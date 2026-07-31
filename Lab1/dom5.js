@@ -12,7 +12,7 @@ class DomClass extends EventEmitter{
 
 // removeEventListener(eventName,callback){
 //     this.on(eventNames,callback);
-// };
+// };   
 removeEventListener(eventName,callback){
     this.off(eventName,callback);
     }
