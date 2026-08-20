@@ -5,7 +5,6 @@
     "price": 16000,
     "qty": 2
   },
-
   {
     "id": 12,
     "name": "lcd",
@@ -17,5 +16,12 @@
     "name": "laptop",
     "price": 190000,
     "qty": 4
+  },
+
+  {
+    "id": 55,
+    "name": "tablate",
+    "price": 4500,
+    "qty": 1
   }
 ]

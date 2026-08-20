@@ -25,6 +25,19 @@ const addToCart = async (product) => {
   console.log(`product added/updated with id ${product.id} into cart`);
 };
 
+const RemoveFromCart=async()=>{
+console.log("This is from cart")
+
+};
+
+const UpdateCart =async()=>{
+  console.log("cart updated")
+
+}
+
+
+
+
 const showCart = async () => {
   const data = await getCart();
   console.table(data);
@@ -60,10 +73,12 @@ const main = async () => {
 
         break;
       case 3:
-        console.log("remove product");
+        // console.log("remove product");
+        await RemoveFromCart();
         break;
       case 4:
-        console.log("Update product quantity");
+        // console.log("Update product quantity");
+        await UpdateCart();
         break;
       case 5:
         console.log("See you later");
