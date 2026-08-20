@@ -1,27 +1,8 @@
 [
   {
-    "id": 12,
+    "id": 15,
     "name": "tv",
-    "price": 16000,
-    "qty": 2
-  },
-  {
-    "id": 12,
-    "name": "lcd",
-    "price": 287626,
-    "qty": 4
-  },
-  {
-    "id": 13,
-    "name": "laptop",
-    "price": 190000,
-    "qty": 4
-  },
-
-  {
-    "id": 55,
-    "name": "tablate",
-    "price": 4500,
+    "price": 450032,
     "qty": 1
   }
 ]
