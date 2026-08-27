@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MacBook Air</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 8%;
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #1d1d1f;
+      font-size: 15px;
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero-content {
+      max-width: 1000px;
+    }
+
+    .hero h1 {
+      font-size: 70px;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #6e6e73;
+      margin-bottom: 25px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 13px 25px;
+      margin: 10px;
+      border-radius: 30px;
+      font-size: 16px;
+    }
+
+    .buy {
+      background-color: #0071e3;
+      color: white;
+    }
+
+    .learn {
+      border: 1px solid #0071e3;
+      color: #0071e3;
+    }
+
+    .macbook-image {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 850px;
+      transition: 0.3s;
+    }
+
+    .macbook-image:hover {
+      transform: scale(1.03);
+    }
+
+    /* Features */
+    .features {
+      background-color: white;
+      padding: 80px 10%;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 45px;
+      margin-bottom: 50px;
+    }
+
+    .feature-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 280px;
+      padding: 30px;
+      border-radius: 20px;
+      background-color: #f5f5f7;
+    }
+
+    .feature h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .feature p {
+      color: #6e6e73;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #1d1d1f;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 45px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo"> MacBook</div>
+
+    <ul>
+      <li><a href="#">MacBook Air</a></li>
+      <li><a href="#">MacBook Pro</a></li>
+      <li><a href="#">Compare</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>MacBook Air</h1>
+      <h2>Supercharged by M4.</h2>
+
+      <p>Sky blue color. Lightning-fast performance. All-day battery life.</p>
+
+      <div class="buttons">
+        <a href="#" class="buy">Buy Now</a>
+        <a href="#" class="learn">Learn More</a>
+      </div>
+
+      <!-- Replace the image URL with your own MacBook image -->
+      <img 
+        class="macbook-image"
+        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+        alt="MacBook Laptop"
+      />
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Built for everything you do.</h2>
+
+    <div class="feature-container">
+
+      <div class="feature">
+        <h3>⚡ Powerful Performance</h3>
+        <p>
+          Experience incredibly fast performance with the latest Apple Silicon.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h3>🔋 All-Day Battery</h3>
+        <p>
+          Work, study, create and stream without worrying about charging.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h3>💻 Stunning Display</h3>
+        <p>
+          Enjoy a beautiful Liquid Retina display with incredible detail and color.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright © 2026 MacBook. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

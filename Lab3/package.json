@@ -1,0 +1,20 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "<!-- \r NPM = node package manager  -->",
+  "main": "prg1.js",
+  "scripts": {
+
+    "dev": "nodemon prog4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
