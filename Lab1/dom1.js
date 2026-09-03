@@ -6,6 +6,7 @@ button.on("click",()=>{
     console.log("Button clicked");
 
 })
+
 button.emit("click");
 
 
