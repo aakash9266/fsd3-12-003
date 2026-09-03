@@ -5,7 +5,9 @@
   "main": "prg1.js",
   "scripts": {
 
-    "dev": "nodemon prog4.js"
+     "start":"node prg3.js",
+
+    "dev": "nodemon prg6.js"
   },
   "keywords": [],
   "author": "",

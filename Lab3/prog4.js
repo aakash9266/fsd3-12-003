@@ -3,7 +3,7 @@ import http from 'http'
 const server = http.createServer((req,res)=>{
 
     // res.writeHead(200,{'content-type':'application/json'});
-    res.writeHead(200,{"ontent-type":"application/json"});
+    res.writeHead(200,{"ontent-type":"text/json"});
     console.log("Client URL:",req.url);
     
 
@@ -21,12 +21,21 @@ const server = http.createServer((req,res)=>{
         discount:25,
 
 
+    },{
+        name:"MacBook",
+        price:120000,
+
+
+        qty:1,
+        discount:20
     }
 ];
+
+
 
     
     res.end(JSON.stringify(product));
 
 });
 
-server.listen(3000,()=>console.log("Server is running at 3000..."));
+server.listen(3000,()=>console.log("prg4  is running at 3000..."));
